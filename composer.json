@@ -1,0 +1,51 @@
+{
+    "name": "nprt/tecweb",
+    "description": "Progetto di TecWeb 2017/18",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leonardo Nodari",
+            "email": "nodarileonardo@gmail.com"
+        },
+        {
+            "name": "Paolo Pozzan",
+            "email": "paolo.pozzan1996@gmail.com"
+        },
+        {
+            "name": "Elia Rebellato",
+            "email": "reb.sennare@gmail.com"
+        },
+        {
+            "name": "Gianluca Travasci",
+            "email": "gianluca.travasci@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "require-dev": {
+        "laravel/homestead": "^7.0"
+    },
+    "autoload": {
+        "files": [
+            "framework/Helpers/assets.php",
+            "framework/Helpers/config.php",
+            "framework/Helpers/display.php",
+            "framework/Helpers/globals.php",
+            "framework/Helpers/paths.php",
+            "framework/Helpers/route.php",
+            "framework/Helpers/security.php",
+            "framework/Helpers/string.php"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Framework\\": "framework/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
