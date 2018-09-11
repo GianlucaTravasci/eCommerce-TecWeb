@@ -1,0 +1,17 @@
+﻿id,name,parent_id
+1,Divani,NULL
+2,Sedie,NULL
+3,Tavoli,NULL
+4,Arredo,NULL
+5,Divani,1
+6,Divaniletto,1
+7,Poltrone,2
+8,Sedie,2
+9,Pouf,2
+10,Tavolini,3
+11,Cassapanche,3
+12,Tavoli da pranzo,3
+13,Scrivanie,3
+14,Armadi,4
+15,Scaffali,4
+16,Libreria,4

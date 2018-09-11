@@ -1,0 +1,12 @@
+id,username,name,surname,password,email,admin
+1,admin,Mario,Rossi,admin,admin@example.com,1
+2,user,Franco,Cavolo,user,user@example.com,0
+3,usr2,Gastani,Frizzi,usr2,usr2@example.com,0
+4,usr3,Aldo,Baldo,usr3,usr3@example.com,0
+5,usr4,Giovanni,Storti,usr4,usr4@example.com,0
+6,usr5,Giacomo,Poretti,usr5,usr5@example.com,0
+7,usr6,Stanley,Laurel,usr6,example@usr6.com,0
+8,usr7,Ollie,Babe,usr7,usr7@example.com,0
+9,usr8,Mario,Girotti,usr8,usr8@example.com,0
+10,usr9,Carlo,Pedersoli,usr9,usr9@example.com,0
+11,usr10,Jack,Black,usr10,usr10@example.com,0

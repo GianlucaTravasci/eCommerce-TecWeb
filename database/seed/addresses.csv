@@ -1,0 +1,12 @@
+id,user_id,country,city,street,number
+1,1,it,Milano,"Via Roma",4
+2,2,it,Napoli,"Via Bromeis",1
+3,3,it,Venezia,"Via delle pecore",42
+4,4,it,Padova,"Via delle pezze",5
+5,5,it,Vicenza,"Via Padova",17
+6,6,it,Treviso,"Via Vicenza",13
+7,7,it,Milano,"Via della fenice",6
+8,8,it,Milano,"Via Santo Polo",4
+9,9,it,Treviso,"Via delle pecore",24
+10,10,it,Pordenone,"Via dei perdenti",100
+11,11,it,Genova,"Porto Antico",17
