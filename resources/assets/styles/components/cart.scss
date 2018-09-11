@@ -1,0 +1,30 @@
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .total-price {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, "sm")) {
+        .checkout-link {
+            a {
+                padding-left: 2em;
+                padding-right: 2em;
+            }
+        }
+    }
+
+    @media (min-width: map-get($grid-breakpoints, "md")) {
+        margin: 1em;
+
+        .checkout-link {
+            a {
+                padding-left: 3em;
+                padding-right: 3em;
+            }
+        }
+    }
+}

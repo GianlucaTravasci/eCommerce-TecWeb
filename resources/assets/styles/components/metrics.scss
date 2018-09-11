@@ -1,0 +1,21 @@
+.metrics {
+    background-color: darken($primary, 15%);
+    color: $light;
+    padding: 1em;
+    margin-top: 1em;
+
+    .metrics-value {
+        font-size: 42px;
+        white-space: nowrap;
+    }
+
+    .metrics-delta {
+        font-size: 24px;
+    }
+}
+
+.metrics-help {
+    color: $secondary;
+    text-align: center;
+    margin-top: 0.5em;
+}

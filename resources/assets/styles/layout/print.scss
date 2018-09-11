@@ -1,0 +1,20 @@
+@media print {
+    .header {
+        .logo {
+            &.logo-square {
+                display: none;
+            }
+            &.logo-extended {
+                display: inline;
+            }
+        }
+
+        .search, .menu {
+            display: none !important;
+        }
+    }
+
+    .footer {
+        display: none !important;
+    }
+}

@@ -1,0 +1,116 @@
+.login-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .login-form {
+        flex: 1;
+        background-color: $white;
+        border-radius: 5px;
+        padding: 1em;
+
+        h1 {
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1.4px;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+
+        .login-helper {
+            font-size: 14px;
+            margin-bottom: 0.5em;
+            color: $dark;
+            text-align: center;
+        }
+
+        .login-group {
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .login-input {
+            width: 100%;
+            border-radius: 3px;
+            background-color: $gray-200;
+            border: none;
+            font-weight: 600;
+            padding: 12px 20px 12px 20px;
+            box-sizing: border-box;
+            outline: none !important;
+        }
+
+        button[type=submit] {
+            margin-top: 1em;
+        }
+    }
+
+    @media (min-width: map-get($grid-breakpoints, "md")) {
+        .login-form {
+            flex: 0 0 25em;
+        }
+    }
+}
+
+.register-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .register-form {
+        flex: 1;
+        background-color: $white;
+        border-radius: 5px;
+        padding: 1em;
+
+        h1 {
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1.4px;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        .register-group {
+            margin: 2em 0;
+        }
+
+        .register-field {
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .register-input {
+            width: 100%;
+            border-radius: 3px;
+            background-color: $gray-200;
+            border: none;
+            font-weight: 600;
+            padding: 8px 15px 8px 15px;
+            box-sizing: border-box;
+            outline: none !important;
+        }
+
+        .register-confirm button {
+            width: 100%;
+        }
+    }
+
+    @media (min-width: map-get($grid-breakpoints, "md")) {
+        .register-form {
+            flex: 0 0 50em;
+
+            .register-confirm {
+                text-align: right;
+
+                button {
+                    width: auto;
+                }
+            }
+        }
+    }
+}

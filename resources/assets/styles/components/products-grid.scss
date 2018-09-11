@@ -1,0 +1,47 @@
+.products-grid {
+    .product {
+        background-color: $white;
+        margin: 1em;
+
+        .product-price {
+            text-align: right;
+            color: $secondary;
+            font-weight: 600;
+            margin-right: 0.5em;
+        }
+
+        .product-image {
+            margin: 1em 2em;
+        }
+
+        .product-name {
+            text-align: center;
+            padding: 0.25em;
+        }
+
+        a {
+            color: $secondary;
+            &:hover {
+                color: darken($secondary, 15%);
+            }
+        }
+
+        &.enhanced:hover {
+            cursor: pointer;
+
+            a {
+                color: darken($secondary, 15%);
+            }
+        }
+    }
+
+    @media (min-width: map-get($grid-breakpoints, "md")) {
+        display: flex;
+        justify-content: space-between;
+
+        .product {
+            width: 20em;
+            height: auto;
+        }
+    }
+}

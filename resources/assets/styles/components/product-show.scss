@@ -1,0 +1,76 @@
+.product-show {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: $white;
+    padding: 0.5em;
+
+    .product-image {
+        margin: 1em 2em;
+    }
+
+    .line-break {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .product-category {
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        color: $secondary;
+        margin-bottom: 1em;
+    }
+
+    .product-description {
+        color: $dark;
+    }
+
+    .product-buy {
+        margin-top: 1.5em;
+    }
+
+    .product-price {
+        color: $dark;
+        font-weight: 600;
+        margin-right: 0.5em;
+        font-size: 24px;
+        white-space: nowrap;
+    }
+
+    .product-quantity-input {
+        border-radius: 3px;
+        background-color: $gray-200;
+        border: none;
+        font-weight: 600;
+        padding: 12px 20px 12px 20px;
+        box-sizing: border-box;
+        outline: none !important;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, "md")) {
+        flex-flow: nowrap;
+
+        .line-break {
+            display: none;
+        }
+
+        .product-buy {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .product-form {
+            margin-right: 0.5em;
+        }
+    }
+
+    @media (min-width: map-get($grid-breakpoints, "lg")) {
+        .product-image {
+            flex: 0 0 25em;
+        }
+    }
+}
