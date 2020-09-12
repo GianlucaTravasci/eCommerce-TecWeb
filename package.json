@@ -12,12 +12,12 @@
     "eslint": "cross-env node_modules/eslint/bin/eslint.js resources/assets/js --fix"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "cross-env": "^5.1.1",
-    "laravel-mix": "^1.6.2"
+    "bootstrap": "^4.5.2",
+    "cross-env": "^7.0.2",
+    "laravel-mix": "^5.0.5"
   },
   "devDependencies": {
-    "eslint": "^4.16.0",
-    "eslint-config-google": "^0.9.1"
+    "eslint": "^7.8.1",
+    "eslint-config-google": "^0.14.0"
   }
 }
